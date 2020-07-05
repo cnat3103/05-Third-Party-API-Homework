@@ -30,12 +30,13 @@ $(document).ready(function () {
     };
     
 
-    // Change style base on time. Compare the scheduled hour to the current hour determined using moment.js 
+    // Change style base on time. Compare the scheduled hour to the current hour determined using moment.js. Find relevant time id and add classes for styling
     function timeStyle() {
-        for (let i = 6; i < 18; i++) {
+        for (let i = 9; i < 18; i++) {
             let hour = '#' + i;
+            console.log(hour)
             let scheduleHour = parseInt($(hour).attr("id"));
-            $(hour).removeClass();
+            console.log(scheduleHour);
             if (
                 scheduleHour > currentHour) {
                 $(hour).attr("class", "row future");

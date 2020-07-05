@@ -6,6 +6,7 @@ The app features the [Moment.js](https://momentjs.com/) library to work with dat
 
 The Moment.js liibrary has well articulated documentation and guides that make it an easy to understand and deploy.
 
+
 ## User Story
 The application complies with the desired outcomes as expressed in the following user story:
 ```
